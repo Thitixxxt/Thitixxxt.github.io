@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Show List in HTML</title>
   <style>
+    /* #### navbar #### */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: rgb(10, 227, 166);
+    }
+
+    /* ################ */
     h3 {
       border: 1px solid black;
     }
   </style>
 </head>
+
 <body>
-  <a href="index.html">Home</a> |
-  <a href="about.html">About</a> |
-  <a href="contact.html">Contact</a> |
-  <a href="table.html">Table</a> |
-  <a href="list.html">List</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="table.html">Table</a> </li>
+    <li><a href="list.html">List</a></li>
+    <li><a href="form.html">Login</a> </li>
+  </ul>
   <h3>Unordered List</h3>
   <h4>My favorite Fruits</h4>
   <ul>
@@ -32,4 +63,5 @@
     <li>workout</li>
   </ol>
 </body>
+
 </html>
